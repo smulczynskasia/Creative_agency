@@ -16,6 +16,9 @@ width: 100%;
 
 .navbar-nav {
 text-align: right;
+  list-style-type: none;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .splash-inner {
