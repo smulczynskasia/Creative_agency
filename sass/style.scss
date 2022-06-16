@@ -5,19 +5,20 @@
 .container {
 width: 100%;
   color: #ccc;
-  position: relative;
+  position: absolute;
   display: flex;
   padding: 0;
   margin: 0 auto;
 }
 
+.container img {
+  position: relative;
+}
+
 .navbar-nav {
 text-align: right;
-position: absolute;
-  
 }
 
 .splash-inner {
-position: absolute;
 text-align: center;
 }
