@@ -31,6 +31,7 @@ img {
   padding: 0;
   margin: 0 auto;
   z-index: -1;
+  object-fit: cover;
 }
 
 .navbar-nav {
@@ -39,10 +40,12 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 5px;
+  left: 70%;
 }
 
 .navbar-nav li {
   margin: 5px;
+  color: #fff;
 }
 
 .splash {
@@ -57,7 +60,7 @@ img {
   border-radius: 5px;
   border-style: solid;
   background-color: $color-1;
-  color: #ccc;
+  color: #fff;
 }
 
 /* About */
