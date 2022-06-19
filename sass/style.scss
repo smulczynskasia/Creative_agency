@@ -3,13 +3,13 @@
 /* Navigation */
 
 img {
-  position: relative;
+  position: absolute;
 }
 
 .navbar-nav {
   text-align: center;
   list-style-type: none;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
 }
@@ -26,7 +26,7 @@ img {
   
 .splash-inner {
   padding: 20px;
-  position: absolute;
+  position: relative;
 }
   
 /* About */
