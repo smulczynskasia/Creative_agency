@@ -61,5 +61,9 @@ h5 {
   padding: 50px;
   width: 100%;
   height: auto;
+  flex: 0 0 33.33%;
+  position: absolute;
 }
-  
+  .card {
+    position: relative;
+}
