@@ -6,7 +6,7 @@ $color-1: #FBE23E;
 
 .container-splash {
   width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 img {
@@ -14,9 +14,8 @@ img {
 }
 
 .navbar-nav {
-  text-align: right;
   list-style-type: none;
-  position: relative;
+  position: right;
   display: flex;
   flex-direction: row;
   color: $color-1;
