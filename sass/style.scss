@@ -10,7 +10,8 @@ img {
   text-align: center;
   list-style-type: none;
   position: absolute;
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 .splash {
