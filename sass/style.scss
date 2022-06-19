@@ -1,17 +1,25 @@
 /* Global */
 
+$color-1: #FBE23E;
+
 /* Navigation */
+
+.container-splash {
+  width: 100%;
+  heihgt: 100%;
+}
 
 img {
   position: absolute;
 }
 
 .navbar-nav {
-  text-align: center;
+  text-align: right;
   list-style-type: none;
   position: relative;
   display: flex;
   flex-direction: row;
+  color: $color-1;
 }
 
 .navbar-nav li {
@@ -22,9 +30,6 @@ img {
   display: flex;
   text-align: center;
   justify-content: center;
-}
-  
-.splash-inner {
   padding: 20px;
   position: relative;
 }
