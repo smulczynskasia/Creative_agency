@@ -2,18 +2,24 @@
 
 /* Navigation */
 
+img {
+  position: relative;
+}
+
 .navbar-nav {
   text-align: center;
   list-style-type: none;
   position: absolute;
+  display: inline;
 }
 
 .splash {
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
   
 .splash-inner {
-  text-align: center;
   padding: 20px;
   position: absolute;
 }
