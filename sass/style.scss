@@ -6,7 +6,7 @@ $color-1: #FBE23E;
 
 .container-splash {
   width: 100%;
-  heihgt: 100%;
+  height: auto;
 }
 
 img {
@@ -58,5 +58,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
+  width: 100%;
+  height: auto;
 }
   
