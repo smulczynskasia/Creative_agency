@@ -9,10 +9,12 @@ $font-family-2: 'Libre Baskerville', serif;
 
 h1 {
   font-family: $font-family-2;
+  font-size: 20px;
 }
 
 h2 {
   font-family: $font-family-1;
+  font-size: 30px;
 }
 
 /* Navigation */
@@ -28,9 +30,10 @@ img {
   width: 100%;
   padding: 0;
   margin: 0 auto;
+  z-index: -1;
 }
 
-.navbar {
+.navbar-nav {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +41,7 @@ img {
   padding: 5px;
 }
 
-.navbar li {
+.navbar-nav li {
   margin: 5px;
 }
 
@@ -48,6 +51,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 50px;
+}
+
+.btn-one {
+  border-radius: 5px;
+  border-style: solid;
+  background-color: $color-1;
+  color: #ccc;
 }
 
 /* About */
