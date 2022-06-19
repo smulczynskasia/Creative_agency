@@ -36,12 +36,14 @@ img {
   
 /* About */
 
-.services {
+.container-services {
   text-align: center;
   background: #ccc;
   color: #fff;
   padding: 50px;
   display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .box {
