@@ -71,6 +71,11 @@ img {
 }
 
 .parent {
+  position: absolute;
+}
+
+.box {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -88,7 +93,6 @@ h3 {
 display: flex;
 flex-wrap: wrap;
   flex-direction: row;
-flex: 0 0 33.33%;
 justify-content: center;
 text-align: center;
   width: 100%;
