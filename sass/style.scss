@@ -72,10 +72,6 @@ img {
 
 /* About */
 
-.container-services {
-  background-color: #DEDDDD;
-}
-
 .container-services h2 {
   color: #959595;
 }
@@ -97,6 +93,14 @@ h3 {
 }
 
 /* Portfolio */
+
+.container {
+  background-color: #DEDDDD;
+}
+
+.container h2 {
+  color: #959595;
+}
 
 .row {
   display: flex;
