@@ -10,11 +10,17 @@ $font-family-2: 'Libre Baskerville', serif;
 h1 {
   font-family: $font-family-2;
   font-size: 20px;
+  text-align: center;
 }
 
 h2 {
   font-family: $font-family-1;
   font-size: 30px;
+  text-align: center;
+}
+
+body {
+  text-align: center;
 }
 
 /* Navigation */
@@ -87,10 +93,6 @@ h3 {
 }
 
 /* Portfolio */
-
-.container h1 h2 {
-  text-align: center;
-}
 
 .row {
   display: flex;
