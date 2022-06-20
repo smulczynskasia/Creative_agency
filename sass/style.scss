@@ -90,12 +90,17 @@ h3 {
 
 .container {
 display: flex;
+}
+
+.row {
+  flex: 0 0 33.33%;
 flex-wrap: wrap;
   flex-direction: row;
 justify-content: center;
 text-align: center;
   width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 /* Footer */
