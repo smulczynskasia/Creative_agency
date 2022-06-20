@@ -68,6 +68,9 @@ img {
 
 .container-services {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 33.33%
 }
 
 h3 {
