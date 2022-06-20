@@ -88,11 +88,15 @@ h3 {
 
 /* Portfolio */
 
-.container {
-display: flex;
+.container h1 h2 {
+  text-align: center;
 }
 
 .row {
+  display: flex;
+}
+
+.col-4 {
   flex: 0 0 33.33%;
 flex-wrap: wrap;
   flex-direction: row;
