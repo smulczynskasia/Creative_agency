@@ -68,14 +68,18 @@ img {
 
 .container-services {
   text-align: center;
+}
+
+.parent {
   display: flex;
   flex-direction: row;
-  flex: 0 0 33.33%
+  flex-wrap: wrap;
+  flex: 0 0 33.33%;
 }
 
 h3 {
   color: $color-1;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 /* Portfolio */
