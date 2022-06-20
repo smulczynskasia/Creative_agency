@@ -22,11 +22,9 @@ h2 {
 .container-splash {
   width: 100%;
   padding: 20px;
-  position: absolute;
 }
 
 img {
-  position: relative;
   width: 100%;
   padding: 0;
   margin: 0 auto;
@@ -36,7 +34,6 @@ img {
 
 .navbar {
   left: 70%;
-  position: relative;
 }
 
 .navbar-nav {
@@ -58,7 +55,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 50px;
-  position: relative;
 }
 
 .btn-one {
@@ -70,7 +66,33 @@ img {
 
 /* About */
 
+.container-services {
+  text-align: center;
+}
+
+h3 {
+  color: $color-1;
+  font-size: 25px;
+}
 
 /* Portfolio */
 
+.container {
+display: flex;
+flex-wrap: wrap;
+  flex-direction: row;
+flex: 0 0 33.33%;
+justify-content: center;
+text-align: center;
+  width: 100%;
+  height: auto;
+}
+
 /* Footer */
+
+.social-media {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  color: #010101;
+}
