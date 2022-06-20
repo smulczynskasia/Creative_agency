@@ -71,15 +71,14 @@ img {
 }
 
 .parent {
-  position: absolute;
+  display: flex;
 }
 
 .box {
-  position: relative;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 0 0 33.33%;
+  padding: 35px;
 }
 
 h3 {
